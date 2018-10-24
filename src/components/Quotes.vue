@@ -43,7 +43,8 @@ export default {
 
 <style scoped>
 	.card {
-		width: 23.75rem;	
+		width: 23.75rem;
+		border-color: #2196F3;
 	}
 
 	.card:hover {

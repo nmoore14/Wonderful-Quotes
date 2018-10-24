@@ -39,5 +39,6 @@ export default {
 		color: white;
 		text-align: center;
 		padding-top: .5rem;
+		margin-top: .5rem;
 	}
 </style>
