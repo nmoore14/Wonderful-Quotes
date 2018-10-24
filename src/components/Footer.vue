@@ -38,5 +38,6 @@ export default {
 		border-radius: 2rem;
 		color: white;
 		text-align: center;
+		padding-top: .5rem;
 	}
 </style>
