@@ -1,6 +1,6 @@
 # wonderful-quotes
 
-> A Vue.js project
+> The second course project in Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex) on Udemy
 
 ## Build Setup
 
