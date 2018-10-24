@@ -28,8 +28,10 @@ export default {
 	},
 	methods: {
 		addQuote: function() {
-			eventBus.$emit('quoteAdded', this.newQuote);
-			this.newQuote = '';
+			if(this.newQuote != '') {
+				eventBus.$emit('quoteAdded', this.newQuote);
+				this.newQuote = '';
+			}
 		}
 	},
 	created() {
@@ -43,5 +45,7 @@ export default {
 <style scoped>
 	.btn-block {
 		margin-top: .25rem;
+		background-color: #03A9F4;
+		border: none;
 	}
 </style>
