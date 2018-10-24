@@ -6,7 +6,7 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text">Quote:</span>
 					</div>
-					<textarea class="form-control" rows="1" aria-label="With textarea" v-model="newQuote" v-on:keyup.enter="addQuote" v-if="quoteCount < 10"></textarea>
+					<input type="text" class="form-control" aria-label="With textarea" v-model="newQuote" v-on:keyup.enter="addQuote" v-if="quoteCount < 10"></textarea>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
