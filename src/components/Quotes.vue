@@ -48,6 +48,8 @@ export default {
 	.card {
 		width: 23.75rem;
 		border-color: #2196F3;
+		font-size: 1.5rem;
+		font-weight: lighter;
 	}
 
 	.card:hover {

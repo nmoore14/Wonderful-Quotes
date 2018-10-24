@@ -43,6 +43,24 @@ export default {
 </script>
 
 <style scoped>
+	.input-group-text {
+		font-size: 1.75rem;
+		font-weight: lighter;
+		border-radius: 2rem 0 0 2rem;
+	}
+
+	input {
+		font-size: 1.75rem;
+		font-weight: lighter;
+		height: 4rem;
+		border-radius: 0 2rem 2rem 0;
+	}
+
+	input:focus {
+		box-shadow: none;
+		border: .13rem solid #00B0FF;
+	}
+
 	.btn-block {
 		margin-top: .25rem;
 		background-color: #03A9F4;

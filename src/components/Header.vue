@@ -47,4 +47,10 @@ export default {
 	.progress {
 		height: 3rem;
 	}
+
+	.progress-bar {
+		background-color: #6A1B9A;
+		font-size: 1.25rem;
+		font-weight: lighter;
+	}
 </style>

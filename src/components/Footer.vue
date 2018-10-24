@@ -36,9 +36,14 @@ export default {
 <style scoped>
 	.bg-info {
 		border-radius: 2rem;
+		background-color: #6A1B9A!important;
 		color: white;
 		text-align: center;
 		padding-top: .5rem;
 		margin-top: .5rem;
+	}
+
+	h4, h5 {
+		font-weight: lighter;
 	}
 </style>
