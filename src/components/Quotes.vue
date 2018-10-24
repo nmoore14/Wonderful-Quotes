@@ -42,6 +42,9 @@ export default {
 </script>
 
 <style scoped>
+	.container-fluid {
+		margin-top: .5rem;
+	}
 	.card {
 		width: 23.75rem;
 		border-color: #2196F3;

@@ -10,7 +10,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-				<button type="button" class="btn btn-primary btn-lg" @click="addQuote"  v-if="quoteCount < 10">Add Quote</button>
+				<button type="button" class="btn btn-secondary btn-lg btn-block" @click="addQuote"  v-if="quoteCount < 10">Add Quote</button>
 			</div>
 		</div>
 	</div>
@@ -41,7 +41,7 @@ export default {
 </script>
 
 <style scoped>
-	.btn-lg {
-		margin: 2rem;
+	.btn-block {
+		margin-top: .25rem;
 	}
 </style>

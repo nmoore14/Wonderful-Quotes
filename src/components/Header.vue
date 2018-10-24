@@ -40,6 +40,10 @@ export default {
 		margin-bottom: 2rem;
 	}
 
+	h2 {
+		font-weight: lighter;
+	}
+
 	.progress {
 		height: 3rem;
 	}
